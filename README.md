@@ -1,27 +1,32 @@
 # 🤖 AI Resume Analyzer
 
-An intelligent web application that analyzes resumes, evaluates ATS readiness, extracts key information, and provides useful suggestions for improving a resume.
+An AI-powered web application that analyzes resumes, extracts important information, checks ATS readiness, matches resumes with job descriptions, and provides intelligent improvement suggestions.
 
 ## ✨ Features
 
-* 📄 Upload your resume
-* 📝 Extract resume content
-* 🛠️ Identify technical and soft skills
-* 🎓 Extract education details
-* 💼 Identify work experience
-* 📂 Detect projects
-* 📊 Display resume analysis in a dashboard
-* 🎯 Check ATS readiness
-* 💡 Provide resume improvement suggestions
+* 📄 **Resume Upload** — Upload your resume and analyze it easily.
+* 📝 **Resume Text Extraction** — Extracts readable content from the uploaded resume.
+* 📊 **Resume Dashboard** — Displays important resume information in a simple dashboard.
+* 🛠️ **Skills Detection** — Identifies technical and professional skills.
+* 🎓 **Education Detection** — Extracts education-related information.
+* 💼 **Experience Detection** — Identifies work experience and internship details.
+* 📂 **Project Detection** — Finds and displays projects mentioned in the resume.
+* 🎯 **ATS Readiness Analysis** — Checks how suitable the resume is for Applicant Tracking Systems.
+* 🔍 **Job Description Matching** — Compares the resume with a job description.
+* 💡 **Improvement Suggestions** — Provides suggestions to improve resume quality and job relevance.
+
+## 🖥️ Application Preview
+
+The application provides a simple interface where users can upload their resume and view the extracted information through an interactive dashboard.
 
 ## 🛠️ Technologies Used
 
-* Python
-* Streamlit
-* Resume Parsing
-* Natural Language Processing (NLP)
-* HTML & CSS
-* Git & GitHub
+* **Python**
+* **Streamlit**
+* **Natural Language Processing (NLP)**
+* **Document Processing**
+* **AI-based Resume Analysis**
+* **Git & GitHub**
 
 ## 📁 Project Structure
 
@@ -35,14 +40,14 @@ AI-Resume-Analyzer/
 └── venv/
 ```
 
-> `venv/` is used only for the local Python environment and is excluded from GitHub using `.gitignore`.
+> `venv/` is a local virtual environment and is excluded from Git tracking using `.gitignore`.
 
-## 🚀 How to Run
+## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/kittyyash/AI-Resume-Analyzer.git
 ```
 
 ### 2. Open the project folder
@@ -51,25 +56,27 @@ git clone <your-repository-url>
 cd AI-Resume-Analyzer
 ```
 
-### 3. Create and activate virtual environment
+### 3. Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-Windows:
+### 4. Activate the virtual environment
+
+**Windows:**
 
 ```bash
 venv\Scripts\activate
 ```
 
-### 4. Install dependencies
+### 5. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Run the application
+### 6. Run the application
 
 ```bash
 streamlit run app.py
@@ -77,38 +84,41 @@ streamlit run app.py
 
 The application will open in your browser.
 
-## 📊 Application Workflow
+## 🎯 Project Objective
 
-```text
-Upload Resume
-      ↓
-Extract Resume Text
-      ↓
-Analyze Resume
-      ↓
-Extract Skills, Education,
-Experience & Projects
-      ↓
-Generate Resume Dashboard
-      ↓
-Provide Improvement Suggestions
-```
+The main objective of this project is to simplify the resume evaluation process by automatically analyzing resume content and providing useful insights to job seekers.
 
-## 🎯 Future Improvements
+It helps users understand:
 
-* 🤖 Advanced AI-based resume recommendations
-* 📌 Job description matching
-* 📈 Resume score improvement tracking
-* 🎨 Resume template suggestions
-* 💼 Job-role based skill recommendations
-* 📄 Support for multiple resume formats
+* What skills are present in their resume
+* How well their resume matches a job description
+* Whether their resume is ATS-friendly
+* Which areas can be improved
+
+## 🚀 Future Enhancements
+
+* 🔹 Support for additional resume formats
+* 🔹 Advanced AI-powered resume scoring
+* 🔹 Multiple job-description comparison
+* 🔹 Resume keyword optimization
+* 🔹 Personalized career recommendations
+* 🔹 Resume improvement suggestions based on specific job roles
+* 🔹 Deployment as a cloud-based application
 
 ## 👩‍💻 Author
 
 **Sandhiya B**
 
-B.E. Electrical and Electronics Engineering (EEE)
+B.E. Electrical and Electronics Engineering
+
+Interested in **Software Development, AI, Python, and UI/UX Design**.
+
+## ⭐ Support
+
+If you find this project useful, consider giving the repository a ⭐ on GitHub.
 
 ---
 
-⭐ If you find this project useful, consider giving the repository a star!
+### 📌 GitHub Repository
+
+https://github.com/kittyyash/AI-Resume-Analyzer
