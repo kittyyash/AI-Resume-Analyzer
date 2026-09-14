@@ -86,6 +86,109 @@ The application will open in your browser.
 
 ## 🎯 Project Objective
 
+# 🤖 AI Resume Analyzer
+
+An AI-powered web application that analyzes resumes, extracts important information, checks ATS readiness, matches resumes with job descriptions, and provides intelligent improvement suggestions.
+
+## ✨ Features
+
+* 📄 **Resume Upload** — Upload your resume and analyze it easily.
+* 📝 **Resume Text Extraction** — Extracts readable content from the uploaded resume.
+* 📊 **Resume Dashboard** — Displays important resume information in a simple dashboard.
+* 🛠️ **Skills Detection** — Identifies technical and professional skills.
+* 🎓 **Education Detection** — Extracts education-related information.
+* 💼 **Experience Detection** — Identifies work experience and internship details.
+* 📂 **Project Detection** — Finds and displays projects mentioned in the resume.
+* 🎯 **ATS Readiness Analysis** — Checks how suitable the resume is for Applicant Tracking Systems.
+* 🔍 **Job Description Matching** — Compares the resume with a job description.
+* 💡 **Improvement Suggestions** — Provides suggestions to improve resume quality and job relevance.
+
+## 🖥️ Application Preview
+
+The application provides a simple and user-friendly interface for uploading resumes, viewing extracted information, and analyzing ATS readiness.
+
+### 📄 Resume Upload & Dashboard
+
+![Resume Upload Dashboard](Screenshots/01-resume-upload-dashboard.png)
+
+### 🎯 ATS Score
+
+![ATS Score](Screenshots/02-ats-score.png)
+
+### 📊 Resume Analysis
+
+![Resume Analysis](Screenshots/03-resume-analysis.png)
+
+## 🛠️ Technologies Used
+
+* **Python**
+* **Streamlit**
+* **Natural Language Processing (NLP)**
+* **Document Processing**
+* **AI-based Resume Analysis**
+* **Git & GitHub**
+
+## 📁 Project Structure
+
+```text
+AI-Resume-Analyzer/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── Screenshots/
+    ├── 01-resume-upload-dashboard.png
+    ├── 02-ats-score.png
+    └── 03-resume-analysis.png
+```
+
+> `venv/` is a local virtual environment and is excluded from Git tracking using `.gitignore`.
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/kittyyash/AI-Resume-Analyzer.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd AI-Resume-Analyzer
+```
+
+### 3. Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+### 4. Activate the virtual environment
+
+**Windows:**
+
+```bash
+venv\Scripts\activate
+```
+
+### 5. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Run the application
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser.
+
+## 🎯 Project Objective
+
 The main objective of this project is to simplify the resume evaluation process by automatically analyzing resume content and providing useful insights to job seekers.
 
 It helps users understand:
