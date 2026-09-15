@@ -26,6 +26,7 @@ The application is deployed using **Streamlit Community Cloud** and can be acces
 * [Tech Stack & Tools](#️-tech-stack--tools)
 * [Architecture](#️-architecture)
 * [Workflow / System Flow](#-workflow--system-flow)
+* [Screenshots](#-screenshots)
 * [Scoring Methodology](#-scoring-methodology)
 * [Project Structure](#-project-structure)
 * [Getting Started](#-getting-started)
@@ -254,6 +255,26 @@ flowchart TD
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Resume Upload & Dashboard
+
+![Resume Upload Dashboard](Screenshots/01-resume-upload-dashboard.png)
+
+---
+
+### 📊 ATS Resume Score
+
+![ATS Resume Score](Screenshots/02-ats-score.png)
+
+---
+
+### 🔍 Resume Analysis
+
+![Resume Analysis](Screenshots/03-resume-analysis.png)
+
+---
+
 ## 📊 Scoring Methodology
 
 The application uses two main scoring approaches:
@@ -345,6 +366,11 @@ NLP Relevance Score
 ```text
 AI-Resume-Analyzer/
 │
+├── 📁 Screenshots/
+│   ├── 01-resume-upload-dashboard.png
+│   ├── 02-ats-score.png
+│   └── 03-resume-analysis.png
+│
 ├── 📄 app.py
 ├── 📄 requirements.txt
 ├── 📄 .gitignore
@@ -353,12 +379,13 @@ AI-Resume-Analyzer/
 
 ### 📌 File Description
 
-| File               | Description                                                            |
+| File / Directory   | Description                                                            |
 | ------------------ | ---------------------------------------------------------------------- |
 | `app.py`           | Main Streamlit application containing the interface and analysis logic |
 | `requirements.txt` | Python packages required to run the application                        |
 | `.gitignore`       | Prevents unnecessary and environment-specific files from being tracked |
 | `README.md`        | Project documentation                                                  |
+| `Screenshots/`     | Contains screenshots demonstrating the application interface           |
 
 ### `.gitignore`
 
@@ -451,8 +478,6 @@ streamlit run app.py
 
 Open the Streamlit URL shown in your browser.
 
----
-
 ### Step 2 — Upload Your Resume
 
 Upload a resume in either:
@@ -464,8 +489,6 @@ Upload a resume in either:
 
 The application extracts the resume text automatically.
 
----
-
 ### Step 3 — Review Resume Information
 
 The application analyzes the extracted resume and detects:
@@ -476,19 +499,13 @@ The application analyzes the extracted resume and detects:
 * 📂 Projects
 * 📜 Certifications
 
----
-
 ### Step 4 — Check ATS Resume Score
 
 The application calculates a rule-based **ATS Resume Score** based on the detected resume information.
 
----
-
 ### Step 5 — Enter a Job Description
 
 Paste the Job Description you want to compare against your resume.
-
----
 
 ### Step 6 — Review Job Matching Results
 
@@ -500,13 +517,9 @@ The application provides:
 * 🧠 NLP Relevance Score
 * 🎯 Overall Job Match Score
 
----
-
 ### Step 7 — Review Suggestions
 
 Review the generated suggestions to identify areas where your resume may be improved.
-
----
 
 ### Step 8 — Download the Analysis
 
@@ -524,9 +537,9 @@ The application is deployed using **Streamlit Community Cloud**.
 
 The deployed application can be accessed directly through a web browser without requiring Python or VS Code on the user's device.
 
-### 🔗 Repository
+### 🔗 GitHub Repository
 
-🐙 **[AI Resume Analyzer — GitHub](https://github.com/kittyyash/AI-Resume-Analyzer)**
+🐙 **[AI Resume Analyzer](https://github.com/kittyyash/AI-Resume-Analyzer)**
 
 ---
 
